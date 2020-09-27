@@ -9,18 +9,18 @@
 import UIKit
 
 class CharacterViewCell: UITableViewCell {
-
+    
     @IBOutlet var courseImage: UIImageView!
     @IBOutlet var courseNameLabel: UILabel!
     @IBOutlet var numberOfLessons: UILabel!
     @IBOutlet var numberOfTests: UILabel!
     
-   func configure(with result: Result?) {
-    
-    courseNameLabel.text = result?.name
-    numberOfLessons.text = result?.gender
-    numberOfTests.text = result?.species
-    
+    func configure(with result: Result?) {
+        
+        courseNameLabel.text = result?.name
+        numberOfLessons.text = result?.gender
+        numberOfTests.text = result?.species
+        
         DispatchQueue.global().async {
             guard let stringUrl = result?.image else { return }
             guard let imageUrl = URL(string: stringUrl) else { return }

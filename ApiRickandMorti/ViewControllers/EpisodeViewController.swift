@@ -9,35 +9,32 @@ import UIKit
 
 class EpisodeViewController: UICollectionViewController {
     
-    private var episode: [Episode] = []
-    private var epsode: Episode?
-    private let urlString = "https://rickandmortyapi.com/api/episode"
-    
+    private var result: [Result.Episode] = []
+
     override func viewDidLoad() {
-         
-            NetworkManagerEp.shared.fetchData(from: urlString) {
-                       episode in DispatchQueue.main.async {
-                           self.epsode = episode
-                           self.collectionView.reloadData()
-                       }
-                   }
+        
+        NetworkManager.shared.getResultsEpisode{ results in
+            self.result = results
+            self.collectionView.reloadData()
         }
-
-        // MARK: - Table view data source
-      override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-           epsode?.results.count ?? 1
-        }
-
-        override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell{
-           let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath)as! EpisodeActionCell
-             
-           let result = epsode?.results[indexPath.row]
-                 cell.configure(with: result)
-            
-            return cell
-        }
-
     }
     
+    // MARK: - Table view data source
+    override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        //epsode?.results.count ?? 1
+        result.count
+    }
+    
+    override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell{
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath)as! EpisodeActionCell
+        
+        let results = result[indexPath.row]
+        cell.configure(with: results)
+        
+        return cell
+    }
+    
+}
+
 
 

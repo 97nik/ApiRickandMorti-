@@ -3,37 +3,34 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1110DCE3251A051100712B96 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1110DCE2251A051100712B96 /* MainViewController.swift */; };
 		1110DCE5251A113200712B96 /* CharacterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1110DCE4251A113200712B96 /* CharacterViewController.swift */; };
 		1110DCE7251A12DA00712B96 /* CharacterViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1110DCE6251A12DA00712B96 /* CharacterViewCell.swift */; };
-		1110DCED251A25EA00712B96 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1110DCEC251A25EA00712B96 /* Character.swift */; };
-		1110DCEF251A260700712B96 /* NetworkManagerCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1110DCEE251A260700712B96 /* NetworkManagerCharacter.swift */; };
-		1110DCF5251A4EE300712B96 /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1110DCF4251A4EE300712B96 /* Episode.swift */; };
+		1110DCED251A25EA00712B96 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1110DCEC251A25EA00712B96 /* Result.swift */; };
+		1110DCEF251A260700712B96 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1110DCEE251A260700712B96 /* NetworkManager.swift */; };
 		1110DCFB251A6BB200712B96 /* EpisodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1110DCFA251A6BB200712B96 /* EpisodeViewController.swift */; };
 		1110DCFD251A6EE600712B96 /* EpisodeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1110DCFC251A6EE600712B96 /* EpisodeViewCell.swift */; };
-		1110DCFF251A730C00712B96 /* NetworkManagerEpisode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1110DCFE251A730C00712B96 /* NetworkManagerEpisode.swift */; };
 		1110DD0C251B551300712B96 /* MainViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1110DD0B251B551300712B96 /* MainViewCell.swift */; };
 		116C251F2519EA96002074A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116C251E2519EA96002074A2 /* AppDelegate.swift */; };
 		116C25212519EA96002074A2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116C25202519EA96002074A2 /* SceneDelegate.swift */; };
 		116C25262519EA96002074A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 116C25242519EA96002074A2 /* Main.storyboard */; };
 		116C25282519EA9F002074A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 116C25272519EA9F002074A2 /* Assets.xcassets */; };
 		116C252B2519EA9F002074A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 116C25292519EA9F002074A2 /* LaunchScreen.storyboard */; };
+		64FEBEF1053B87D95CA57987 /* Pods_ApiRickandMorti.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF8E5BD7F03DFB786FD2FC44 /* Pods_ApiRickandMorti.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1110DCE2251A051100712B96 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		1110DCE4251A113200712B96 /* CharacterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterViewController.swift; sourceTree = "<group>"; };
 		1110DCE6251A12DA00712B96 /* CharacterViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterViewCell.swift; sourceTree = "<group>"; };
-		1110DCEC251A25EA00712B96 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
-		1110DCEE251A260700712B96 /* NetworkManagerCharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagerCharacter.swift; sourceTree = "<group>"; };
-		1110DCF4251A4EE300712B96 /* Episode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
+		1110DCEC251A25EA00712B96 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		1110DCEE251A260700712B96 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		1110DCFA251A6BB200712B96 /* EpisodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeViewController.swift; sourceTree = "<group>"; };
 		1110DCFC251A6EE600712B96 /* EpisodeViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeViewCell.swift; sourceTree = "<group>"; };
-		1110DCFE251A730C00712B96 /* NetworkManagerEpisode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagerEpisode.swift; sourceTree = "<group>"; };
 		1110DD0B251B551300712B96 /* MainViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewCell.swift; sourceTree = "<group>"; };
 		116C251B2519EA96002074A2 /* ApiRickandMorti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApiRickandMorti.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		116C251E2519EA96002074A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +39,9 @@
 		116C25272519EA9F002074A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		116C252A2519EA9F002074A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		116C252C2519EA9F002074A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58821B3775204689353A3413 /* Pods-ApiRickandMorti.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApiRickandMorti.release.xcconfig"; path = "Target Support Files/Pods-ApiRickandMorti/Pods-ApiRickandMorti.release.xcconfig"; sourceTree = "<group>"; };
+		BF8E5BD7F03DFB786FD2FC44 /* Pods_ApiRickandMorti.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ApiRickandMorti.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7E8693F4D4D60ADFC814EB0 /* Pods-ApiRickandMorti.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApiRickandMorti.debug.xcconfig"; path = "Target Support Files/Pods-ApiRickandMorti/Pods-ApiRickandMorti.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,17 +49,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64FEBEF1053B87D95CA57987 /* Pods_ApiRickandMorti.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05CD8E8C112173BE9F78A188 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F7E8693F4D4D60ADFC814EB0 /* Pods-ApiRickandMorti.debug.xcconfig */,
+				58821B3775204689353A3413 /* Pods-ApiRickandMorti.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		1110DD06251B532E00712B96 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
-				1110DCEE251A260700712B96 /* NetworkManagerCharacter.swift */,
-				1110DCFE251A730C00712B96 /* NetworkManagerEpisode.swift */,
+				1110DCEE251A260700712B96 /* NetworkManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -67,8 +76,7 @@
 		1110DD07251B537600712B96 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				1110DCF4251A4EE300712B96 /* Episode.swift */,
-				1110DCEC251A25EA00712B96 /* Character.swift */,
+				1110DCEC251A25EA00712B96 /* Result.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -88,6 +96,8 @@
 			children = (
 				116C251D2519EA96002074A2 /* ApiRickandMorti */,
 				116C251C2519EA96002074A2 /* Products */,
+				05CD8E8C112173BE9F78A188 /* Pods */,
+				ABD51A1E29F55AC567C43ED5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -150,6 +160,14 @@
 			path = ViewControllers;
 			sourceTree = "<group>";
 		};
+		ABD51A1E29F55AC567C43ED5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF8E5BD7F03DFB786FD2FC44 /* Pods_ApiRickandMorti.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -157,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 116C252F2519EA9F002074A2 /* Build configuration list for PBXNativeTarget "ApiRickandMorti" */;
 			buildPhases = (
+				C224BDB15D8E9F187451ABFA /* [CP] Check Pods Manifest.lock */,
 				116C25172519EA96002074A2 /* Sources */,
 				116C25182519EA96002074A2 /* Frameworks */,
 				116C25192519EA96002074A2 /* Resources */,
+				6F27368C9ADE12633F270972 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -177,7 +197,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1160;
-				LastUpgradeCheck = 1160;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Никита Микрюков";
 				TargetAttributes = {
 					116C251A2519EA96002074A2 = {
@@ -216,16 +236,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6F27368C9ADE12633F270972 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ApiRickandMorti/Pods-ApiRickandMorti-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ApiRickandMorti/Pods-ApiRickandMorti-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ApiRickandMorti/Pods-ApiRickandMorti-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C224BDB15D8E9F187451ABFA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ApiRickandMorti-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		116C25172519EA96002074A2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1110DCED251A25EA00712B96 /* Character.swift in Sources */,
+				1110DCED251A25EA00712B96 /* Result.swift in Sources */,
 				1110DD0C251B551300712B96 /* MainViewCell.swift in Sources */,
-				1110DCFF251A730C00712B96 /* NetworkManagerEpisode.swift in Sources */,
-				1110DCF5251A4EE300712B96 /* Episode.swift in Sources */,
-				1110DCEF251A260700712B96 /* NetworkManagerCharacter.swift in Sources */,
+				1110DCEF251A260700712B96 /* NetworkManager.swift in Sources */,
 				116C251F2519EA96002074A2 /* AppDelegate.swift in Sources */,
 				1110DCE7251A12DA00712B96 /* CharacterViewCell.swift in Sources */,
 				1110DCFD251A6EE600712B96 /* EpisodeViewCell.swift in Sources */,
@@ -284,6 +344,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -344,6 +405,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -374,6 +436,7 @@
 		};
 		116C25302519EA9F002074A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7E8693F4D4D60ADFC814EB0 /* Pods-ApiRickandMorti.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -392,6 +455,7 @@
 		};
 		116C25312519EA9F002074A2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58821B3775204689353A3413 /* Pods-ApiRickandMorti.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

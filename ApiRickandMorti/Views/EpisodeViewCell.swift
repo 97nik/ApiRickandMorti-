@@ -14,13 +14,13 @@ class EpisodeActionCell: UICollectionViewCell {
     @IBOutlet var numberEpisode: UILabel!
     @IBOutlet var nameEpisode: UILabel!
     
-   
-    func configure(with result: ResultEpisode?) {
+    
+    func configure(with result: Result.Episode?) {
         
         nameActionLabel.text = result?.name
         numberEpisode.text = result?.episode
         nameEpisode.text = result?.air_date
-
+        
     }
     
 }
